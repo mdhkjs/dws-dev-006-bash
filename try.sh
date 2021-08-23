@@ -1,10 +1,7 @@
 #! /bin/bash
 
-default_interval=5
-default_number=12
-
-interval=${TRY_INTERVAL:-$default_interval}
-number=${TRY_NUMBER:-$default_number}
+interval=${TRY_INTERVAL:-5}
+number=${TRY_NUMBER:-12}
 command=$TRY_COMMAND
 
 while [[ "$#" ]]; do
